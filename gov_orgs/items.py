@@ -1,22 +1,17 @@
-# -*- coding: utf-8 -*-
-
-# Define here the models for your scraped items
-#
-# See documentation in:
-# https://doc.scrapy.org/en/latest/topics/items.html
-
 import scrapy
 
 class GovOrgsItem(scrapy.Item):
     category = scrapy.Field()
     name = scrapy.Field()
     
+    misc_info = scrapy.Field()
     address = scrapy.Field()
     address_line_1 = scrapy.Field()
     address_line_2 = scrapy.Field()
     address_line_3 = scrapy.Field()
     address_line_4 = scrapy.Field()
-    
+    address_line_5 = scrapy.Field()
+
     # head of organization information
     hod_designation = scrapy.Field()
     hod_name = scrapy.Field()
