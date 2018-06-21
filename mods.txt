@@ -1,0 +1,12 @@
+category
+name
+hod_des
+hod_name                        in/output processors
+hod_contact
+gi_website
+cp_contact
+
+
+ministries - contact person informationmising
+
+general information standardizing
