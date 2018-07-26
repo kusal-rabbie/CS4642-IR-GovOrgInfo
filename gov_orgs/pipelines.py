@@ -1,4 +1,4 @@
-import scrapy, csv, json, logging
+import scrapy, json, logging
 from bs4 import BeautifulSoup as bs
 from gov_orgs.items import GovOrgsItem
 from scrapy.exceptions import DropItem
